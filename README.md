@@ -61,4 +61,14 @@ Steps to build a VAR Model :
     j)	Forecast to future
 
 ## Results
+1. ### ThingSpeak Readings
+ <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/CO.png" width="700" height="500"> <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/temp.JPG" width="300" height="200"> <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/Air%20quality%20monitoring%20-%20ThingSpeak%20IoT%20-%20Google%20Chrome%2010-02-2021%2016_37_24%20(2).png" width="300" height="200">
+
+ 2. ### Data Analysis using Matplotlib and Seaborn
+ <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/AREAPLOT.JPG" width="300" height="300"> 
+ This plot shows the data for every data point over a period of time. We can also see that PPM levels and temperature were 
+ high on some days and dipped on some as the sensors were kept on different places and on different days. The highs and dips
+ for CO2, CO and AQI coincided which is a major point to note.
+ 
+ 
     
