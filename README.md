@@ -17,7 +17,8 @@ IOT Based Air Quality Monitoring System Using Machine learning Algorithm
 ## Hardware Used
    
     1. Arduino Uno 
-   ![Uno](https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/Uno.png)
+   <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/Uno.png" width="400" height="400">
+
    
     2. Wifi Module (ESP8266)
    ![wifi](https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/wifi.png)
@@ -26,7 +27,38 @@ IOT Based Air Quality Monitoring System Using Machine learning Algorithm
    ![LCD](https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/LCD.png)
    
     4. Sensors (MQ135,MQ2,DHT11)
-   ![MQ135](https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/MQ135.png)
-   ![MQ2](https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/MQ2.png)
-   ![DHT11](https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/DHT11.png)
+ 
+   <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/MQ135.png" width="400" height="200">  <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/MQ2.png" width="200" height="200"> <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/DHT11.png" width="200" height="200">
+   
+   ## Circuit Diagram
+![Circuit Diagram](https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/cIRCUIT%20dIAGRAM.JPG)
+
+## Working Principle 
+
+The data that was collected from the sensors were directly downloaded as the csv file using Python codes
+using Serial Library and then we trained our model in Jupyter Notebook using VAR Model Formula.
+Autoregression models, the time series is modeled as a linear combination of it’s own lags. That is, the
+past values of the series are used to forecast the current and future.
+A typical AR(p) model equation looks something like this:
+
+    y_t=α+β_1 y_(t-1)+β_2 y_(t-2)+⋯+β_p y_(t-p)+ϵ_t
+
+where α is the intercept, a constant and β1, β2 till βp are the coefficients of the lags of Y till order p.
+
+Order ‘p’ means, up to p-lags of Y is used and they are the predictors in the equation. The ε_{t} is the error, 
+which is considered as white noise.
+Steps to build a VAR Model :
+
+    a)	Analyze the time series characteristics
+    b)	Test for causation amongst the time series
+    c)	Test for stationarity
+    d)	Transform the series to make it stationary, if needed
+    e)	Find optimal order (p)
+    f)	Prepare training and test datasets
+    g)	Train the model
+    h)	Roll back the transformations, if any.
+    i)	Evaluate the model using test set
+    j)	Forecast to future
+
+## Results
     
