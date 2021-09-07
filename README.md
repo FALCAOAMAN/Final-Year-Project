@@ -17,7 +17,8 @@ IOT Based Air Quality Monitoring System Using Machine learning Algorithm
 ## Hardware Used
    
     1. Arduino Uno 
-       ![Uno](https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/Uno.png)
+   ![Uno](https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/Uno.png)
+   
     2. Wifi Module (ESP8266)
     3. 16X2 LCD Display
     4. Sensors (MQ135,MQ2,DHT11)
