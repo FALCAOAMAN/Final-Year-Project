@@ -70,5 +70,10 @@ Steps to build a VAR Model :
  high on some days and dipped on some as the sensors were kept on different places and on different days. The highs and dips
  for CO2, CO and AQI coincided which is a major point to note.
  
+ <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/MEANAQI.JPG" width="100" height="100"> <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/MEANCO.JPG" width="100" height="100"> 
+ <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/MEANCO2.JPG" width="100" height="100">  <img src="https://github.com/FALCAOAMAN/Final-Year-Project/blob/main/ProjectPics/MEANTEMP.JPG" width="100" height="100"> 
+ 
+ 
+ 
  
     
